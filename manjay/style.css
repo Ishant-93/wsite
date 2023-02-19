@@ -1,0 +1,186 @@
+
+body{
+    background-color: #000000;
+
+}
+.navbar{
+    flex: 1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    word-spacing: 10px;
+    background-color: #000000;
+    font-size: 1.5em;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+}
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size:large;
+
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+p > span{
+    color: #C92C6D;
+}
+h1>span{
+    color: #C92C6D;
+}
+h1{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+
+.mainimg{
+
+    position: absolute;
+    right: 200px;
+   bottom: 100px;
+   max-width: 18%;
+   max-height: auto;
+   border-radius: 10%;
+   border-color:#C92C6D;
+   border-width: 6px;
+   border-style: ridge;
+}
+.content{
+position: relative;
+color: white;
+display: inline;
+}
+h2{
+    color: white;
+    display: inline;
+   text-align: center;
+ 
+}
+a:hover {
+    color:#C92C6D;
+    
+  }
+.active{
+    color:#C92C6D;
+  }
+
+.content ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+ 
+}
+.content ul{
+    word-spacing: 10px;
+    display: inline;
+    
+}
+
+.mid{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 150px;
+
+}
+
+.contact{
+    color:white;
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+}
+td{
+    color: white;
+}
+
+input{
+   
+    width: 29em;
+    height: 2em;
+    margin: 5px;
+    border-radius: 5px;
+}
+#msg{
+    
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+button{
+    border-radius: 10px;
+    background-color: #C92C6D;
+    color: white;
+    width: 5em;
+    height:3em;
+    margin-left:2px ;
+
+}
+button:hover{
+    background-color: white;
+    color: #C92C6D;
+}
+
+.frm{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.social{
+    margin-left:15px ;
+    
+}
+.wtsap{
+    filter: grayscale(1);
+}
+.lind{
+    filter: grayscale(1);
+}
+.yt{
+    filter: grayscale(1);
+}
+.tele{
+    filter: grayscale(1);
+}
+
+.wtsap:hover{
+    filter: grayscale(0);
+}
+.lind:hover{
+    filter: grayscale(0);
+}
+.yt:hover{
+    filter: grayscale(0);
+}
+.tele:hover{
+    filter: grayscale(0);
+}
+
+.social > img{
+
+    margin: 5px 10px 5px 10px;
+}
+
+.mid > p{
+
+    font-size: 18px;
+    line-height: 30px;
+    
+}

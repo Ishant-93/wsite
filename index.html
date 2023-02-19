@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <style>
+
+        .welcome-message {
+          text-align: center;
+          margin-top: 20px;
+        }
+
+        .welcome-message h1 {
+          font-size: 25px;
+          font-weight: normal
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+          background-color: white;
+          color: #fff;
+          padding: 20px;
+        }
+
+        nav {
+          background-color: whitesmoke;
+          border-radius: 40px;
+          overflow: hidden;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          padding-inline-start: 1%;
+        }
+
+        nav li {
+          float: left;
+        }
+
+        nav li a {
+          display: block;
+          color: #555;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border-radius: 40px;
+          transition: background-color 0.3s ease;
+        }
+
+        nav li a:hover {
+          background-color: #efeded;
+          transform: scale(1.05);
+        }
+
+        .person {
+          flex: 1 0 200px;
+          margin: 0 10px; /* Add equal margin on each side */
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin:20px;
+          max-width: 200px;
+          text-align: center;
+        }
+        
+        .person img {
+          width: 170px;
+          height: 170px;
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: center;
+          margin-bottom: 10;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          border: 5px solid white;
+          transition: transform 0.2s ease;
+        }
+
+        .person h3 {
+          font-size: 18px;
+          margin-bottom: 10px;
+          font-family: Arial, sans-serif;
+        }
+
+        .person p {
+          font-size: 14px;
+          color: #777;
+          margin: 0;
+        }
+
+        .person:hover img {
+          transform: scale(1.1);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        
+        main {
+          padding: 70px;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          grid-gap: 20px;
+          margin-top: 20%;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          margin: 0 -10px; 
+        }     
+
+        .person {
+          flex: 1 0 200px;
+          margin: 0 10px; 
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 50px;
+          max-width: 250px;
+          transition: transform 0.2s ease;
+        }
+
+        .person img {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: center;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          border: 5px solid #fff;
+        }
+
+        .person h3 {
+          font-size: 22px;
+          margin-top: 20px;
+          font-family: Arial, sans-serif;
+          color: #333;
+          font-weight: bold;
+        }
+
+        .person p {
+          font-size: 16px;
+          color: #777;
+          margin: 0;
+        }
+
+        .person:hover {
+          transform: translateY(-5px);
+        }
+
+        .person:hover img {
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+          background-color: #222;
+          color: #fff;
+          text-align: center;
+          padding: 20px;
+          margin-top: 80px;
+        }
+
+        footer p {
+          font-size: 14px;
+          margin: 0;
+        }
+
+        footer a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        footer a:hover {
+          text-decoration: underline;
+        }
+
+        footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 3%;
+        }
+
+        video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="data/tech.mp4" type="video/mp4">
+    </video>
+    
+    
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ishant.html">Ishant</a></li>
+          <li><a href="bhargav.html">Bhargav</a></li>
+          <li><a href="#">Ganesh</a></li>
+          <li><a href="manjay.html">Manjay</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="welcome-message">
+      <h1 style="color: azure; font-family: Arial, Helvetica, sans-serif ; font-size: x-large; padding-bottom: 10%;">"The great glowing engine of change - Technology"</h1>
+    </div>
+    <main>
+      <div class="person">
+        <a href="ishant.html">
+          <img src="data/person1.jpeg" alt="Person 1">
+        </a>  
+        <p style="color: azure; font-family: Arial, Helvetica, sans-serif ; font-size: x-large; padding-top: 5%; padding-bottom: 2%;">Ishant Singh</p>
+        <p style="color: #fff;">Deep-leaning Engineer</p>
+      </div>
+      <div class="person">
+        <a href="bhargav.html">
+          <img src="data/person2.jpg" alt="Person 2">
+        </a>  
+        <p style="color: whitesmoke; font-family: Arial, Helvetica, sans-serif ; font-size: x-large; padding-top: 5%; padding-bottom: 2%;">Naga Bhargav</p>
+        <p style="color: azure;">Web Developer</p>
+      </div>
+      <div class="person">
+        <img src="data/" alt="Person 3">
+        <p style="color: azure; font-family: Arial, Helvetica, sans-serif ; font-size: x-large; padding-top: 5%; padding-bottom: 2%;">Ganesh Kumbhar</p>
+        <p style="color: azure;">Robotics Automation Dev</p>
+      </div>
+      <div class="person">
+        <a href="manjay.html">
+          <img src="data/person4.png" alt="Person 2">
+        </a>  
+        <p style="color: azure; font-family: Arial, Helvetica, sans-serif ; font-size: x-large; padding-top: 5%; padding-bottom: 2%;">Manjay Kumar</p>
+        <p style="color: azure;">Graphic Designer</p>
+      </div>
+      
+    </main>
+    <footer>
+      <p>&copy; 2023 MeetOurTeam. All rights reserved.</p>
+    </footer>
+  </body>
+  
+</html>
+

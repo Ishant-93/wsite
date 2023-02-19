@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Template</title>
+</head>
+
+<style>
+
+
+#about h2 {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+#education h2 {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+#contact h2{
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+
+
+body,#education, #about {
+  background-image: url('data/bc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav, #about, #education, #contact {
+  background-color: transparent;
+}
+
+      body {
+        font-family: Arial, sans-serif;
+        color: #fff;
+      }
+
+      nav {
+          background-color: rgb(225, 224, 224);
+          border-radius: 40px;
+          overflow: hidden;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          padding-inline-start: 0%;
+        }
+
+        nav li {
+          float: left;
+        }
+
+        nav li a {
+          display: block;
+          color: #555;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border-radius: 40px;
+          transition: background-color 0.3s ease;
+        }
+
+        nav li a:hover {
+          background-color: #bcb9b9;
+          transform: scale(1.05);
+        }
+
+      section {
+        padding: 50px 0;
+        text-align: center;
+      }
+
+      section h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+      }
+
+      .work-sample {
+        display: inline-block;
+        margin: 0 30px;
+        text-align: left;
+        vertical-align: top;
+        width: 300px;
+      }
+
+      .work-sample img {
+        max-width: 100%;
+      }
+
+      .testimonial {
+        margin: 30px auto;
+        max-width: 600px;
+      }
+
+      .testimonial p:first-child {
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      .testimonial p:last-child {
+        text-align: right;
+      }
+
+
+
+
+#contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 10px;
+  text-align: justify;
+}
+
+#contact li {
+  color: aliceblue;
+  margin-right: 40px;
+  margin-bottom: 10px;
+ font-family: cursive;
+ font-size: larger;
+}
+
+#contact li:last-child {
+  margin-right: 0;
+}
+
+.first-block {
+  font-weight: bold;
+}
+
+.second-block {
+  margin-left: 5px;
+}
+
+#about h2 {
+  color: #fdfdfd;
+  font-size: 36px;
+  margin-bottom: 0px;
+  text-align: center;
+} 
+
+#about p {
+  font-size: 22px;
+  color: #fdfdfd;
+  line-height: 1.5;
+  margin: 0 auto 50px;
+  max-width: 600px;
+  text-align: justify;
+  padding: 0 25px;
+  margin-top: 80px;
+}
+
+
+#about .first-block {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 150px;
+}
+
+#about .second-block {
+  flex-grow: 1;
+  text-align: right;
+}
+
+section#about p {
+  font-family: cursive;
+}
+
+#about {
+  background-image: url('bc.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container img {
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: center;
+         
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          border: 5px solid white;
+          transition: transform 0.2s ease;
+}
+
+.container img:hover {
+  transform: scale(1.1);
+}
+
+.container img:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  /* or */
+  border: 5px solid #fff;
+}
+
+.work-sample {
+  color: #fff;
+}
+
+#education {
+  padding: 50px 0;
+}
+
+#education h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.education-item {
+  margin-bottom: 50px;
+}
+
+.education-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.education-item span {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+ 
+</style>
+<body>
+	<header>
+		<nav>
+			<ul>
+        <li><a href="index.html">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, my name Ishant Singh and I am a college student based in Chennai. I specialize in Deep-leaning and Natural Language Processing . With over 1.5 years of experience, I am working on projects based on NLP and Deep-learning stuff, and pursing my Btech Degree from IIIT Chennai.</p>
+    <div class="container">
+      <img src="data/person1.jpeg" alt="My photo">
+    </div>
+    
+    
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3, style="font-family: cursive; font-size: x-large;">Bachelor's Degree in Computer Science</h3>
+      <p><span>Indian Institute Of Information Technology</span>, Chennai, India (2021 - Present)<br><br></p>
+      <p, style="font-family: cursive; color: #14a6a6;">Coursework included:</p>
+      <ul>
+        <li, style="font-family: cursive; color: #fafafa; align-items: flex-start;">Programming languages (Python, C++)</li>
+        <li>Data structures and algorithms</li>
+        <li>Database systems</li>
+        <li>Artificial Intelligence</li>
+        <li>Applied Data Science</li>
+      </ul>
+    </div>
+    <div class  ='education-item'>
+      <p, style="font-family: cursive; font-size: x-large;color: #14a6a6;">Online Courses</p>
+      <p, style="color: #fafafa;"><span>Youtube, Udemy, edX</span> (2021 - present)</p>
+      <ul>
+        <li>Deep Learning Specialization by Andrew Ng</li>
+        <li>Natural Language Processing with Python by IBM</li>
+      </ul>
+    </div>
+  </section>
+  
+	
+	
+	<section id="contact">
+		<h2>Contact</h2>
+    <ul class="contact-info">
+      <li><span class="first-block">Phone:</span><span class="second-block">+91 8872033216</span></li>
+      <li><span class="first-block">Email:</span><span class="second-block">ishantn95@gmail.com</span></li>
+      <li><span class="first-block">Website:</span><span class="second-block">https://kaleidoscopic-hamster-ff2589.netlify.app/</span></li>
+      <li><span class="first-block">Address:</span><span class="second-block">Hno. 45, AnoopNagar, Punjab, India</span></li>
+    </ul>
+	</section>
+  
+</body>
+</html>
+
